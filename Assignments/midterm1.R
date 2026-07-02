@@ -1,10 +1,11 @@
 # midterm1: individual assignment distribution, one repository per student.
 # Mirrors the paper's distribute-individual chunk (sec-distribute).
 #
-# NOTE: the roster handles are fabricated, so the user invitation step of
-# org_create_assignment() is illustrative here. The demo organization is
-# built by ../provision_demo.R, which creates the same repositories without
-# adding any users.
+# NOTE: the roster handles are fabricated and do not exist on GitHub, so the
+# user invitation step of org_create_assignment() is illustrative here. The
+# demo organization is built by the provisioning script in the paper's
+# companion materials, which creates the same repositories without adding
+# any users.
 
 library(ghclass)
 

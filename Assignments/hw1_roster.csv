@@ -1,7 +1,7 @@
 name,email,section,netid,github,team_id,team
-Carol,carol@example.edu,01,carol,carol,01,hw1_lab01_team01
-Dave,dave@example.edu,01,dave,dave,01,hw1_lab01_team01
-Fred,fred@example.edu,01,fred,fred,01,hw1_lab01_team01
-Alice,alice@example.edu,01,alice,alice,02,hw1_lab01_team02
-Bob,bob@example.edu,01,bob,bob,02,hw1_lab01_team02
-Elizabeth,elizabeth@example.edu,01,elizabeth,elizabeth,02,hw1_lab01_team02
+Carol,carol@example.edu,01,carol,ghclass-carol,01,hw1_lab01_team01
+Dave,dave@example.edu,01,dave,ghclass-dave,01,hw1_lab01_team01
+Fred,fred@example.edu,01,fred,ghclass-fred,01,hw1_lab01_team01
+Alice,alice@example.edu,01,alice,ghclass-alice,02,hw1_lab01_team02
+Bob,bob@example.edu,01,bob,ghclass-bob,02,hw1_lab01_team02
+Elizabeth,elizabeth@example.edu,01,elizabeth,ghclass-elizabeth,02,hw1_lab01_team02
