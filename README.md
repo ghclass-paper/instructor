@@ -12,7 +12,7 @@ This repository plays the role of the private instructor repository described in
 
 - `Organization/` holds the course roster (`github_roster.csv`) and the setup script (`invite.R`) that validates handles, invites students, and configures the organization. In a real course the roster holds PII and stays out of version control; here it is committed because every row is fabricated.
 - `Assignments/` holds one distribution script per assignment: `hw1.R` (team assignment: seeded team formation, distribution from the template, per-team README customization, monitoring, and post-distribution corrections) and `midterm1.R` (individual assignment, one repository per student).
-- `Grading/` holds the collection and feedback script (`hw1.R`) and a generic gradebook template. Running the script generates the `Grading/hw1/` working folder (cloned submissions, downloaded artifacts, a scores CSV, and scaffolded comment files); that folder holds student work and grades, so it stays out of version control and is not part of this repository.
+- `Grading/` holds one collection and feedback script per assignment (`hw1.R`, `midterm1.R`). Running a script generates its working folder (cloned submissions, downloaded artifacts, a scores CSV, and scaffolded comment files); those folders hold student work and grades, so they stay out of version control and are not part of this repository.
 
 ## Repositories in this organization
 

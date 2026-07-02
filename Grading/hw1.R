@@ -20,10 +20,10 @@ org_grade_assignment(
 scores = readr::read_csv("hw1/scores.csv")
 roster = readr::read_csv("../Assignments/hw1_roster.csv")
 
-upload = readr::read_csv("gradebook_template.csv") |>
-  dplyr::left_join(dplyr::left_join(scores, roster, by = "team"), by = "email")
+upload = dplyr::left_join(roster, scores, by = "team") |>
+  dplyr::select(name, email, team, score)
 
-stopifnot("score" %in% names(upload), !any(is.na(upload$score)))
+stopifnot(!any(is.na(upload$score)))
 readr::write_csv(upload, "hw1/hw1_upload.csv")
 
 ## Return qualitative feedback as an issue in each repository
