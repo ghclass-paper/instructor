@@ -20,10 +20,12 @@ org_grade_assignment(
 scores = readr::read_csv("hw1/scores.csv")
 roster = readr::read_csv("../Assignments/hw1_roster.csv")
 
-upload = dplyr::left_join(roster, scores, by = "team") |>
-  dplyr::select(name, email, team, score)
+upload = dplyr::left_join(roster, scores, by = "team")
 
 stopifnot(!any(is.na(upload$score)))
+
+# Additional processing is likely needed here to match the format expected
+# by your school's LMS / gradebook
 readr::write_csv(upload, "hw1/hw1_upload.csv")
 
 ## Return qualitative feedback as an issue in each repository
