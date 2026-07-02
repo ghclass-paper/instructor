@@ -1,6 +1,4 @@
 # hw1: form teams, distribute, customize, monitor, correct.
-# Illustrative: the fabricated handles do not exist on GitHub, so the
-# invitation steps cannot run against this roster.
 
 library(ghclass)
 

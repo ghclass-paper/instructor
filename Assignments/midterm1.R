@@ -1,6 +1,4 @@
 # midterm1: individual assignment distribution, one repository per student.
-# Illustrative: the fabricated handles do not exist on GitHub, so the
-# invitation step cannot run against this roster.
 
 library(ghclass)
 

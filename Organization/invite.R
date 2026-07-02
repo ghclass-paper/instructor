@@ -1,6 +1,4 @@
 # Course setup: configure the org, validate the roster, invite students.
-# Illustrative: the fabricated handles do not exist on GitHub, so the
-# user_exists() check fails by design and no invitation is ever sent.
 
 library(ghclass)
 
