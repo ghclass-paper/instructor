@@ -4,6 +4,8 @@ This organization is the live companion to the paper "A Modern Approach to Teach
 
 Everything here is fabricated. The six students (Alice, Bob, Carol, Dave, Elizabeth, Fred) do not exist, their emails are on `example.edu`, and the assignment content is intentionally generic placeholder text. Where a fabricated handle happens to coincide with a real GitHub account, that account has no involvement here: no user was ever invited to this organization and no collaborator was ever added to a repository.
 
+Visibility is the other deliberate departure from a real course. Every repository here is public so the organization can serve as a reference. In an actual course this instructor repository and every student repository are private, always; we usually make the assignment templates private as well, though that one is an instructor choice rather than a requirement.
+
 ## Layout
 
 This repository plays the role of the private instructor repository described in the paper, with one folder per workflow stage:
