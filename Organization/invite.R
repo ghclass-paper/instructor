@@ -1,11 +1,6 @@
-# Course setup: validate the roster, invite students, configure the org.
-# Mirrors the paper's invite and org-config chunks (sec-setup).
-#
-# NOTE: this demo's roster is fabricated and its ghclass- prefixed handles
-# do not exist on GitHub, so this script is illustrative: the user_exists()
-# validation below fails by design and no invitation is ever sent. The demo
-# organization is built by the provisioning script in the paper's companion
-# materials, which skips all invitations.
+# Course setup: configure the org, validate the roster, invite students.
+# Illustrative: the fabricated handles do not exist on GitHub, so the
+# user_exists() check fails by design and no invitation is ever sent.
 
 library(ghclass)
 

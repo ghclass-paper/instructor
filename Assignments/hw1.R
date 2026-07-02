@@ -1,12 +1,6 @@
-# hw1: team formation, distribution, customization, monitoring, corrections.
-# Mirrors the paper's teams, distribute, customize, monitor, contributions,
-# and correct chunks (sec-distribute and sec-working).
-#
-# NOTE: the roster handles are fabricated and do not exist on GitHub, so the
-# user and team invitation steps of org_create_assignment() are illustrative
-# here. The demo organization is built by the provisioning script in the
-# paper's companion materials, which creates the same repositories and teams
-# without adding any users.
+# hw1: form teams, distribute, customize, monitor, correct.
+# Illustrative: the fabricated handles do not exist on GitHub, so the
+# invitation steps cannot run against this roster.
 
 library(ghclass)
 

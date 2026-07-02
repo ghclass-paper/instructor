@@ -1,13 +1,7 @@
-# hw1: collection, grading, gradebook export, and feedback.
-# Mirrors the paper's grade-collect, gradebook, and feedback chunks
-# (sec-grading).
-#
-# org_grade_assignment() generates the hw1/ working folder: it clones every
-# hw1_ repository and the answer key, downloads each repository's rendered CI
-# artifact, and scaffolds one empty comment file per repository. The scores
-# CSV and the comment files are then filled in by hand; that folder holds
-# student work and grades, so it stays out of version control (see
-# ../.gitignore) and is not part of this repository.
+# hw1: collect, grade, export scores, return feedback.
+# org_grade_assignment() generates the hw1/ working folder (clones, CI
+# artifacts, comment scaffolds); scores and comments are filled in by hand
+# and stay out of version control since they hold student work and grades.
 
 library(ghclass)
 
