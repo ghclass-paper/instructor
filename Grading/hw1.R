@@ -1,6 +1,6 @@
 # hw1: collect, grade, export scores, return feedback.
-# org_grade_assignment() generates the hw1/ working folder (clones, CI
-# artifacts, comment scaffolds); scores and comments are filled in by hand
+# org_grade_assignment() generates the hw1/ working folder (cloned
+# submissions, comment scaffolds); scores and comments are filled in by hand
 # and stay out of version control since they hold student work and grades.
 
 library(ghclass)
@@ -11,8 +11,7 @@ org = "ghclass-paper"
 
 org_grade_assignment(
   "hw1", org, "hw1_",
-  artifacts = c(html = "hw1-html"),
-  key_repo  = "ghclass-paper/hw1-key"
+  key_repo = "ghclass-paper/hw1-key"
 )
 
 ## Export scores to the gradebook, guarded against silent mismatches

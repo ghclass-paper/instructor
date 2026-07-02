@@ -1,6 +1,6 @@
 # midterm1: collect, grade, export scores, return feedback.
-# org_grade_assignment() generates the midterm1/ working folder (clones, CI
-# artifacts, comment scaffolds); scores and comments are filled in by hand
+# org_grade_assignment() generates the midterm1/ working folder (cloned
+# submissions, comment scaffolds); scores and comments are filled in by hand
 # and stay out of version control since they hold student work and grades.
 
 library(ghclass)
@@ -9,10 +9,7 @@ org = "ghclass-paper"
 
 ## Collect
 
-org_grade_assignment(
-  "midterm1", org, "midterm1_",
-  artifacts = c(html = "midterm1-html")
-)
+org_grade_assignment("midterm1", org, "midterm1_")
 
 ## Export scores to the gradebook, guarded against silent mismatches
 
