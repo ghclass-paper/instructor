@@ -57,7 +57,7 @@ repo_pushes("ghclass-paper/hw1_lab01_team01")
 
 ## Correct after distribution: a forgotten data file and a moved due date
 
-repo_add_file(repos, file = "data/late_addition.csv", repo_folder = "data")
+repo_add_file(repos, file = "late_addition.csv", repo_folder = "data")
 
 repo_modify_file(
   repos,
